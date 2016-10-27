@@ -1,0 +1,4 @@
+{"_id":{"$oid":"581170cfc2807895c5c7306c"},"name":"desktopApp_python","git":"https://github.com/AoranZhao/desktopApp_python.git","description":"This desktop app is designed for showing live data to customer.","technique":["Python"],"imgUrl":"Python.jpg"}
+{"_id":{"$oid":"58117110c2807895c5c7306d"},"name":"myWeb","git":"https://github.com/AoranZhao/myWeb.git","description":"This website is a portfolio website for exhibition.","technique":["MEAN"],"imgUrl":"myWeb.png"}
+{"_id":{"$oid":"5811714fc2807895c5c7306e"},"name":"iOS","description":"This iOS app is designed for receiving data from equipment, calculate and redirect to another equipment.","technique":["Objective-C"],"imgUrl":"iOS.png"}
+{"_id":{"$oid":"5811718fc2807895c5c7306f"},"name":"Android","description":"This is my capstone project, a android app based on rest API service.","git":"https://github.com/AoranZhao/AndroidApp.git","technique":["Java"]}
