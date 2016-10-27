@@ -1,0 +1,23 @@
+user: username, pass
+profile: userId, lname, fname, pictureUrl, description, phone, skills[], work[]
+
+desktopApp_python
+https://github.com/AoranZhao/desktopApp_python.git
+This desktop app is designed for showing live data to customer.
+technique: Python
+
+myWeb
+https://github.com/AoranZhao/myWeb.git
+This website is a portfolio website for exhibition.
+technique: MEAN 
+
+iOS
+“”
+This iOS app is designed for receiving data from equipment, calculate and redirect to another equipment.
+technique: Objective-C
+
+Android
+https://github.com/AoranZhao/AndroidApp.git
+This is my capstone project, a android app based on rest API service.
+
+technique: Java

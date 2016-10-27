@@ -1,0 +1,29 @@
+<div class="panel panel-primary" ng-init="getProjects()">
+	<div class="panel-heading">
+		<div class="panel-title text-center"><i class="glyphicon glyphicon-folder-open"></i>Projects</div>
+	</div>
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="list-group">
+					<a href="" class="list-group-item" ng-repeat="project in projects" ng-click="getProjectById(project._id.toString())">{{project.name}}</a>
+				</div>
+			</div>
+			<div class="col-xs-9">
+				<div ng-if="project">
+					<div class="panel">
+						<h3>{{project.name}}</h3>
+					</div>
+					<img src="../img/{{project.imgUrl}}" alt="" class="img-thumbnail" ng-if="project.imgUrl" style="height:300px;" />
+					<div class="well" style="margin-top:10px;">
+						<p>{{project.description}}</p>
+						<p>Technique: <span ng-repeat="tech in project.technique">{{tech}}</span></p>
+						<div>
+							<a href="{{project.git}}" class="btn btn-success" ng-if="project.git"><i class="glyphicon glyphicon-eye-open"></i>View in GitHub</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
